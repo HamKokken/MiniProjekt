@@ -1,7 +1,9 @@
 /*Merlin*/
 .Merlin{
-  margin-left: 500px;
-  margin-top: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
 
 }
 
@@ -9,8 +11,9 @@
 .bubble{
     width: 200px;
     height: 100px;
-    left: 50%;
-    top: 40%;
+    margin-left: 40%;
+    margin-right: 60%;
+    top: 140px;
 }
 
 .Design{
@@ -22,4 +25,20 @@
     margin-right:auto;
     border-radius: 40px;
     background-color: #FFCF00;
+}
+
+.buttons > * {
+  vertical-align: middle;
+}
+
+.tilbage{
+  position: absolute;
+  left: 10em;
+  top: 45em;
+}
+
+.Naste{
+  position: absolute;
+  right: 10em;
+  top: 45em;  
 }
