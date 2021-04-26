@@ -8,11 +8,7 @@ import GoogleAuth from '../GoogleAuth';
 
 const Introduktion = () => {
   return (
-
-
-
     <div className="Design">
-      <GoogleAuth />
       <div className="bubble">
         <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
         <div className="trekantVedTaleboble">
@@ -21,18 +17,21 @@ const Introduktion = () => {
 
       <div>
         <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
-        <div className="tilbage">
-          <button className="ui button">
-            Tilbage
-          </button>
-        </div>
-
+        
+      </div>      
+      <GoogleAuth/>
         <div className="Naste">
           <button className="ui button">
                 <Link to="/pagetwo"> Næste </Link>
           </button>
         </div>
-      </div>
+        <div className="tilbage">
+          <button className="ui button">
+            Tilbage
+          </button>
+        </div>          
+
+    
     </div>
 
 
